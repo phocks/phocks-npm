@@ -1,24 +1,29 @@
+lockfileVersion: '6.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
 dependencies:
-  prettyjson: 1.2.1
-lockfileVersion: 5.1
+  prettyjson:
+    specifier: ^1.2.1
+    version: 1.2.1
+
 packages:
-  /colors/1.4.0:
+
+  /colors@1.4.0:
+    resolution: {integrity: sha512-a+UqTh4kgZg/SlGvfbzDHpgRu7AAQOmmqRHJnxhRZICKFUT91brVhNNt58CMWU9PsBbv3PDCZUHbVxuDiH2mtA==}
+    engines: {node: '>=0.1.90'}
     dev: false
-    engines:
-      node: '>=0.1.90'
-    resolution:
-      integrity: sha512-a+UqTh4kgZg/SlGvfbzDHpgRu7AAQOmmqRHJnxhRZICKFUT91brVhNNt58CMWU9PsBbv3PDCZUHbVxuDiH2mtA==
-  /minimist/1.2.0:
+
+  /minimist@1.2.8:
+    resolution: {integrity: sha512-2yyAR8qBkN3YuheJanUpWC5U3bb5osDywNB8RzDVlDwDHbocAJveqqj1u8+SVD7jkWT4yvsHCpWqqWqAxb0zCA==}
     dev: false
-    resolution:
-      integrity: sha1-o1AIsg9BOD7sH7kU9M1d95omQoQ=
-  /prettyjson/1.2.1:
+
+  /prettyjson@1.2.1:
+    resolution: {integrity: sha1-/P+rQdGcq0365eV15kJGYZsS0ok=}
+    hasBin: true
     dependencies:
       colors: 1.4.0
-      minimist: 1.2.0
+      minimist: 1.2.8
     dev: false
-    hasBin: true
-    resolution:
-      integrity: sha1-/P+rQdGcq0365eV15kJGYZsS0ok=
-specifiers:
-  prettyjson: ^1.2.1
